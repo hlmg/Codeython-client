@@ -4,7 +4,3 @@ resources:
   - deployment.yaml
   - service.yaml
   - ingress.yaml
-configMapGenerator:
-  - name: nginx
-    files:
-      - configs/default.conf
